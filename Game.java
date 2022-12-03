@@ -21,5 +21,9 @@ public class Game {
         else if (difficulty == 3) gameArray = impossible;
     }
 
+    public void play() {
+        
+    }
+
 
 }
