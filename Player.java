@@ -26,7 +26,7 @@ public class Player {
         return bestScore;
     }
 
-    public int score() {
+    public int getScore() {
         return score;
     }
 
@@ -35,7 +35,7 @@ public class Player {
         this.name = name;
     }
 
-    public void tryBestScore(int score) {
+    public void tryBestScore() {
         if (score > bestScore) bestScore = score;
     }
 
